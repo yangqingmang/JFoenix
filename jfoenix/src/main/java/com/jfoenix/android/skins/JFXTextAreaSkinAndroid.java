@@ -26,7 +26,6 @@ import com.jfoenix.transitions.JFXKeyFrame;
 import com.jfoenix.transitions.JFXKeyValue;
 import com.jfoenix.validation.base.ValidatorBase;
 import com.sun.javafx.scene.control.skin.TextAreaSkin;
-import com.sun.javafx.scene.control.skin.TextAreaSkinAndroid;
 import javafx.animation.*;
 import javafx.application.Platform;
 import javafx.beans.binding.Bindings;
@@ -60,7 +59,7 @@ import java.lang.reflect.Field;
  * @version 2.0
  * @since 2017-01-25
  */
-public class JFXTextAreaSkinAndroid extends TextAreaSkinAndroid {
+public class JFXTextAreaSkinAndroid extends TextAreaSkin {
 
     private boolean invalid = true;
 
